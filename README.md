@@ -115,6 +115,20 @@ Pair with device: navihud
 "U-turn ahead" → 🔄 icon
 "Incoming call" → 📞 icon
 
+
+steps to create bitmap images
+1. search the image you want in black and white format
+2. copy or save image
+3. open the paint and load image
+4. set the resolution to 128x64 /* here resolution depends on height and width of the display */
+5. change the format to monochrome image format and save /* The display supports black and white format only */m
+
+steps to generate hex codes for the image
+1. open lcd assistant software
+2. load the image created before
+3. Save the image
+4. open the file in notepad and copy the hex codes and can be used in code
+
 ⚠️ Limitations
 Depends on notification text format
 Works best with consistent phrasing (e.g., Google Maps)
