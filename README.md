@@ -121,7 +121,7 @@ steps to create bitmap images
 2. copy or save image
 3. open the paint and load image
 4. set the resolution to 128x64 /* here resolution depends on height and width of the display */
-5. change the format to monochrome image format and save /* The display supports black and white format only */m
+5. change the format to monochrome image format and save /* The display supports black and white format only */
 
 steps to generate hex codes for the image
 1. open lcd assistant software
